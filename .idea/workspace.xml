@@ -5,18 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure-results/184237bd-ea32-472a-9345-50fbe99bfc01-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/84017cea-edfc-4874-bd54-0829c63e774d-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a35dbb67-774d-4421-b416-86d9ef200a34-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/bdafe7a1-1e7a-41b6-a6c0-9943dbfa32f9-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c9328d9d-4368-4ebb-9e31-efb5f8afcd6e-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d389adb9-076a-4ae5-9334-db45faa275c6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f0fc50ac-f912-4cc3-8702-c9b66a426495-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f2028140-4ebb-4759-b62d-4e3778872c48-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f59ccf8f-9010-471e-b910-0cae22dd7afc-result.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/184237bd-ea32-472a-9345-50fbe99bfc01-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/84017cea-edfc-4874-bd54-0829c63e774d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a35dbb67-774d-4421-b416-86d9ef200a34-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/bdafe7a1-1e7a-41b6-a6c0-9943dbfa32f9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c9328d9d-4368-4ebb-9e31-efb5f8afcd6e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d389adb9-076a-4ae5-9334-db45faa275c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f0fc50ac-f912-4cc3-8702-c9b66a426495-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f2028140-4ebb-4759-b62d-4e3778872c48-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f59ccf8f-9010-471e-b910-0cae22dd7afc-result.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,13 +108,13 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "build.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.qa_guru_allure_15 [allureServe]">
+  <component name="RunManager" selected="Gradle.qa_guru_allure_15 [allureReport]">
     <configuration name="qa_guru_allure_15 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -194,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
         <item itemvalue="Gradle.qa_guru_allure_15 [allureReport]" />
+        <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
         <item itemvalue="JUnit.SelenideTest" />
         <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
       </list>
@@ -210,9 +208,20 @@
       <option name="presentableId" value="Default" />
       <updated>1715099799875</updated>
     </task>
+    <task id="LOCAL-00001" summary="подключил allure">
+      <option name="closed" value="true" />
+      <created>1715193587412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715193587412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="подключил allure" />
+    <option name="LAST_COMMIT_MESSAGE" value="подключил allure" />
   </component>
 </project>

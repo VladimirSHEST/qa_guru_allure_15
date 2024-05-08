@@ -19,7 +19,7 @@ public class SelenideTest {
         $("[data-target='qbsearch-input.inputButtonText']").click();
         $("[name='query-builder-test']").sendKeys("eroshenkoam/allure-example");
         $("[name='query-builder-test']").submit();
-        $(linkText("eroshenkoam/allure-example")).click();  // поиск текста и клик по нему
+        $(linkText("eroshenkoam/allure-example")).click();  // поиск по ссылке и клик по ней
         $("#issues-tab").click();
         $(withText("#87")).should(Condition.exist);   // проверка по тексту
     }
