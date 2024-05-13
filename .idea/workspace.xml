@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="настроил версии зависимостей">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +107,8 @@
     "JUnit.SelenideTest.executor": "Run",
     "JUnit.SelenideTest.testGoogle.executor": "Run",
     "JUnit.SelenideTest.testIssueSearch.executor": "Run",
+    "JUnit.StepsTest.executor": "Run",
+    "JUnit.StepsTest.testLambdaStep.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -118,7 +123,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+    "settings.editor.selected.configurable": "File.Encoding"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -137,28 +142,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.qa_guru_allure_15 [allureServe]">
-    <configuration name="qa_guru_allure_15 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="allureReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration name="qa_guru_allure_15 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,27 +164,20 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="qa_guru_allure_15 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_allure_15.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vladimir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vladimir" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SelenideTest.testGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
@@ -219,7 +195,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
         <pattern>
@@ -228,8 +204,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
-      <option name="METHOD_NAME" value="testIssueSearch" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StepsTest.testLambdaStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_allure_15.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vladimir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vladimir" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
+      <option name="METHOD_NAME" value="testLambdaStep" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,10 +229,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
-        <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
         <item itemvalue="JUnit.SelenideTest.testGoogle" />
-        <item itemvalue="Gradle.qa_guru_allure_15 [dependencies]" />
-        <item itemvalue="Gradle.qa_guru_allure_15 [allureReport]" />
+        <item itemvalue="JUnit.SelenideTest" />
+        <item itemvalue="JUnit.StepsTest" />
+        <item itemvalue="JUnit.StepsTest.testLambdaStep" />
       </list>
     </recent_temporary>
   </component>
