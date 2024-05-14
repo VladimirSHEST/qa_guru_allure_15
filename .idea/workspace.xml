@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="настроил версии зависимостей">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" afterDir="false" />
+    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="Новая ветка. закончил StepsTest">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +45,6 @@
                 <item name="qa_guru_allure_15" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="qa_guru_allure_15" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -107,6 +104,7 @@
     "JUnit.SelenideTest.executor": "Run",
     "JUnit.SelenideTest.testGoogle.executor": "Run",
     "JUnit.SelenideTest.testIssueSearch.executor": "Run",
+    "JUnit.StepsTest.annotatedStep.executor": "Run",
     "JUnit.StepsTest.executor": "Run",
     "JUnit.StepsTest.testLambdaStep.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -121,9 +119,9 @@
     "last_opened_file_path": "C:/Users/vladi/IdeaProjects/qa_guru_16_files",
     "onboarding.tips.debug.path": "D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
+    "project.structure.proportion": "0.15429688",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding"
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -164,21 +162,6 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa_guru_allure_15.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vladimir.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelenideTest.testGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
@@ -210,6 +193,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StepsTest.annotatedStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_allure_15.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vladimir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vladimir" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
+      <option name="METHOD_NAME" value="annotatedStep" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StepsTest.testLambdaStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
@@ -229,16 +228,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
-        <item itemvalue="JUnit.SelenideTest.testGoogle" />
-        <item itemvalue="JUnit.SelenideTest" />
-        <item itemvalue="JUnit.StepsTest" />
         <item itemvalue="JUnit.StepsTest.testLambdaStep" />
+        <item itemvalue="JUnit.StepsTest.annotatedStep" />
+        <item itemvalue="JUnit.StepsTest" />
+        <item itemvalue="JUnit.SelenideTest.testGoogle" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
         <option value="jdk-17.0.9-jbrsdk-17.0.9-f644763e9732-d3ceb957" />
       </set>
     </attachedChunks>
@@ -268,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715443784743</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Новая ветка. закончил StepsTest">
+      <option name="closed" value="true" />
+      <created>1715609302743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609302745</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +294,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="подключил allure" />
     <MESSAGE value="настроил версии зависимостей" />
-    <option name="LAST_COMMIT_MESSAGE" value="настроил версии зависимостей" />
+    <MESSAGE value="Новая ветка. закончил StepsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Новая ветка. закончил StepsTest" />
   </component>
 </project>

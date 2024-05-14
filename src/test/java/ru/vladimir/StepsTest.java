@@ -3,7 +3,6 @@ package ru.vladimir;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.logevents.SelenideLogger;
-import io.qameta.allure.Allure;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.Test;
 
@@ -39,13 +38,24 @@ public class StepsTest {
         step("Кликаем по ссылке репозитория " + REPOSITORY, () -> {
             $(linkText(REPOSITORY)).click();
         });
-        step("Открываем вкладку issues", () -> {
+        step("Открываем вкладку issues ", () -> {
             $("#issues-tab").click();
         });
-        step("Проверка наличия issue с номером 87", () -> {
+        step("Проверка наличия issue с номером 87 ", () -> {
             $(withText("#87")).should(Condition.exist);
         });
-        System.out.println("Привет Hello");
+    }
 
+    @Test
+    public void annotatedStep(){
+        SelenideLogger.addListener("allure", new AllureSelenide());
+        Configuration.holdBrowserOpen = true;
+        WebStep webStep = new WebStep();
+
+        webStep.openMainPage();
+        webStep.searchForRepository(REPOSITORY);
+        webStep.clickOnRepositoryLink(REPOSITORY);
+        webStep.openIssuesTab();
+        webStep.shouldSeeIssuesWithNumber();
     }
 }
