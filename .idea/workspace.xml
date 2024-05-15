@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="Новая ветка. закончил StepsTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep">
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/AttachmentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/LabelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +100,8 @@
     "Gradle.qa_guru_allure_15 [downloadAllure].executor": "Run",
     "Gradle.qa_guru_allure_15 [model].executor": "Run",
     "Gradle.qa_guru_allure_15 [test].executor": "Run",
+    "JUnit.AttachmentTest.executor": "Run",
+    "JUnit.LabelTest.executor": "Run",
     "JUnit.SelenideTest.executor": "Run",
     "JUnit.SelenideTest.testGoogle.executor": "Run",
     "JUnit.SelenideTest.testIssueSearch.executor": "Run",
@@ -162,7 +163,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SelenideTest.testGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AttachmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
         <pattern>
@@ -171,14 +172,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
-      <option name="METHOD_NAME" value="testGoogle" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.AttachmentTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LabelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
         <pattern>
@@ -187,7 +187,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.LabelTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,10 +228,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
+        <item itemvalue="JUnit.LabelTest" />
+        <item itemvalue="JUnit.AttachmentTest" />
         <item itemvalue="JUnit.StepsTest.testLambdaStep" />
         <item itemvalue="JUnit.StepsTest.annotatedStep" />
-        <item itemvalue="JUnit.StepsTest" />
-        <item itemvalue="JUnit.SelenideTest.testGoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715609302745</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="закончил WebStep">
+      <option name="closed" value="true" />
+      <created>1715709016612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715709016612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +303,7 @@
     <MESSAGE value="подключил allure" />
     <MESSAGE value="настроил версии зависимостей" />
     <MESSAGE value="Новая ветка. закончил StepsTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Новая ветка. закончил StepsTest" />
+    <MESSAGE value="закончил WebStep" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил WebStep" />
   </component>
 </project>

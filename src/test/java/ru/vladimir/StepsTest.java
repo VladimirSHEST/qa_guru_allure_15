@@ -50,6 +50,7 @@ public class StepsTest {
     public void annotatedStep(){
         SelenideLogger.addListener("allure", new AllureSelenide());
         Configuration.holdBrowserOpen = true;
+
         WebStep webStep = new WebStep();
 
         webStep.openMainPage();
