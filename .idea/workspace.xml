@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep" />
+    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -111,7 +121,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vladi/IdeaProjects/qa_guru_16_files&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/qa_guru_allure_15&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
@@ -135,6 +145,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Gradle.qa_guru_allure_15 [allureServe]">
+    <configuration name="qa_guru_allure_15 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="allureReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="qa_guru_allure_15 [allureServe]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -187,7 +219,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StepsTest.annotatedStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelenideTest.testGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
       <extension name="coverage">
         <pattern>
@@ -196,24 +228,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
-      <option name="METHOD_NAME" value="annotatedStep" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StepsTest.testLambdaStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa_guru_allure_15.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vladimir.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.StepsTest" />
-      <option name="METHOD_NAME" value="testLambdaStep" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
+      <option name="METHOD_NAME" value="testGoogle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,19 +239,11 @@
       <list>
         <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
         <item itemvalue="JUnit.LabelTest" />
+        <item itemvalue="Gradle.qa_guru_allure_15 [allureReport]" />
+        <item itemvalue="JUnit.SelenideTest.testGoogle" />
         <item itemvalue="JUnit.AttachmentTest" />
-        <item itemvalue="JUnit.StepsTest.testLambdaStep" />
-        <item itemvalue="JUnit.StepsTest.annotatedStep" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
-        <option value="jdk-17.0.9-jbrsdk-17.0.9-f644763e9732-d3ceb957" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
