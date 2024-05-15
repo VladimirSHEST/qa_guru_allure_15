@@ -1,0 +1,104 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"3498d3e3-e200-4366-8623-4652b9e9d367\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/184237bd-ea32-472a-9345-50fbe99bfc01-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/84017cea-edfc-4874-bd54-0829c63e774d-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/a35dbb67-774d-4421-b416-86d9ef200a34-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/bdafe7a1-1e7a-41b6-a6c0-9943dbfa32f9-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/c9328d9d-4368-4ebb-9e31-efb5f8afcd6e-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/d389adb9-076a-4ae5-9334-db45faa275c6-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/f0fc50ac-f912-4cc3-8702-c9b66a426495-container.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/f2028140-4ebb-4759-b62d-4e3778872c48-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/allure-results/f59ccf8f-9010-471e-b910-0cae22dd7afc-result.json\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ExternalProjectsData\">\r\n    <projectState path=\"$PROJECT_DIR$\">\r\n      <ProjectState />\r\n    </projectState>\r\n  </component>\r\n  <component name=\"ExternalProjectsManager\">\r\n    <system id=\"GRADLE\">\r\n      <state>\r\n        <task path=\"$PROJECT_DIR$\">\r\n          <activation />\r\n        </task>\r\n        <projects_view>\r\n          <tree_state>\r\n            <expand>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"qa_guru_allure_15\" type=\"f1a62948:ProjectNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"qa_guru_allure_15\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"qa_guru_allure_15\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\r\n                <item name=\"verification\" type=\"c8890929:TasksNode$1\" />\r\n              </path>\r\n              <path>\r\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\r\n                <item name=\"qa_guru_allure_15\" type=\"f1a62948:ProjectNode\" />\r\n                <item name=\"Dependencies\" type=\"6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode\" />\r\n              </path>\r\n            </expand>\r\n            <select />\r\n          </tree_state>\r\n        </projects_view>\r\n      </state>\r\n    </system>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"VladimirSHEST\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/VladimirSHEST/qa_guru_allure_15.git\",\r\n    \"accountId\": \"13d0e116-0db5-4037-9d9d-5d1a0ec8758f\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 0\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2g9BDphAGo5fyBwFWZ3O2sHS7YV\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_ADD_EXTERNAL_FILES\": \"true\",\r\n    \"Gradle.Build qa_guru_allure_15.executor\": \"Run\",\r\n    \"Gradle.qa_guru_allure_15 [allureReport].executor\": \"Run\",\r\n    \"Gradle.qa_guru_allure_15 [allureServe].executor\": \"Run\",\r\n    \"JUnit.SelenideTest.executor\": \"Run\",\r\n    \"JUnit.SelenideTest.testIssueSearch.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"build.tools\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Gradle.qa_guru_allure_15 [allureReport]\">\r\n    <configuration name=\"qa_guru_allure_15 [allureReport]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\"allureReport\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>false</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"qa_guru_allure_15 [allureServe]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\r\n      <ExternalSystemSettings>\r\n        <option name=\"executionName\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\r\n        <option name=\"scriptParameters\" />\r\n        <option name=\"taskDescriptions\">\r\n          <list />\r\n        </option>\r\n        <option name=\"taskNames\">\r\n          <list>\r\n            <option value=\"allureServe\" />\r\n          </list>\r\n        </option>\r\n        <option name=\"vmOptions\" />\r\n      </ExternalSystemSettings>\r\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\r\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\r\n      <DebugAllEnabled>false</DebugAllEnabled>\r\n      <RunAsTest>false</RunAsTest>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"SelenideTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"qa_guru_allure_15.test\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.vladimir.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ru.vladimir\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.vladimir.SelenideTest\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SelenideTest.testIssueSearch\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"qa_guru_allure_15.test\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ru.vladimir.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"ru.vladimir\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ru.vladimir.SelenideTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"testIssueSearch\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Gradle.qa_guru_allure_15 [allureReport]\" />\r\n        <item itemvalue=\"Gradle.qa_guru_allure_15 [allureServe]\" />\r\n        <item itemvalue=\"JUnit.SelenideTest\" />\r\n        <item itemvalue=\"JUnit.SelenideTest.testIssueSearch\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"3498d3e3-e200-4366-8623-4652b9e9d367\" name=\"Changes\" comment=\"\" />\r\n      <created>1715099799875</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1715099799875</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"подключил allure\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1715193587412</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1715193587412</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"ADD_EXTERNAL_FILES_SILENTLY\" value=\"true\" />\r\n    <MESSAGE value=\"подключил allure\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"подключил allure\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 050796954e17307aa8cc1090251835623ac74bfd)
++++ b/.idea/workspace.xml	(date 1715774229997)
+@@ -73,21 +73,21 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "VladimirSHEST"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;VladimirSHEST&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/VladimirSHEST/qa_guru_allure_15.git",
+-    "accountId": "13d0e116-0db5-4037-9d9d-5d1a0ec8758f"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/VladimirSHEST/qa_guru_allure_15.git&quot;,
++    &quot;accountId&quot;: &quot;13d0e116-0db5-4037-9d9d-5d1a0ec8758f&quot;
+   }
+-}]]></component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 0
+-}]]></component>
++}</component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 0
++}</component>
+   <component name="ProjectId" id="2g9BDphAGo5fyBwFWZ3O2sHS7YV" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+@@ -96,24 +96,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_ADD_EXTERNAL_FILES": "true",
+-    "Gradle.Build qa_guru_allure_15.executor": "Run",
+-    "Gradle.qa_guru_allure_15 [allureReport].executor": "Run",
+-    "Gradle.qa_guru_allure_15 [allureServe].executor": "Run",
+-    "JUnit.SelenideTest.executor": "Run",
+-    "JUnit.SelenideTest.testIssueSearch.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "onboarding.tips.debug.path": "D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.15",
+-    "project.structure.side.proportion": "0.0",
+-    "settings.editor.selected.configurable": "build.tools"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
++    &quot;Gradle.Build qa_guru_allure_15.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.qa_guru_allure_15 [allureReport].executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.qa_guru_allure_15 [allureServe].executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.SelenideTest.executor&quot;: &quot;Run&quot;,
++    &quot;JUnit.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="Gradle.qa_guru_allure_15 [allureReport]">
+     <configuration name="qa_guru_allure_15 [allureReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+       <ExternalSystemSettings>
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"PLATFORM\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleHome\" value=\"C:/gradle-8.5\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n          </set>\r\n        </option>\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 050796954e17307aa8cc1090251835623ac74bfd)
++++ b/.idea/gradle.xml	(date 1715774230003)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>

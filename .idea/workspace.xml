@@ -242,10 +242,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
         <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
         <item itemvalue="JUnit.SelenideTest.testGoogle" />
         <item itemvalue="Gradle.qa_guru_allure_15 [dependencies]" />
+        <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
         <item itemvalue="Gradle.qa_guru_allure_15 [allureReport]" />
       </list>
     </recent_temporary>
