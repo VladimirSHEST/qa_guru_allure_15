@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
+    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/SelenideTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +44,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="verification" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="qa_guru_allure_15" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -67,6 +60,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -106,22 +104,27 @@
     &quot;Gradle.qa_guru_allure_15 [downloadAllure].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.qa_guru_allure_15 [model].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.qa_guru_allure_15 [test].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AttachmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LabelTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SelenideTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SelenideTest.testGoogle.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.annotatedStep.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.testLambdaStep.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;newBranch&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/vladi/IdeaProjects/qa_guru_16_files&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/qa_guru_allure_15&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   },
@@ -186,27 +189,35 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="qa_guru_allure_15 [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="AttachmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_allure_15.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vladimir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vladimir" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.AttachmentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa_guru_allure_15.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vladimir.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vladimir" />
+      <option name="MAIN_CLASS_NAME" value="ru.vladimir.LabelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SelenideTest.testGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="qa_guru_allure_15.test" />
@@ -224,38 +235,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelenideTest.testIssueSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="qa_guru_allure_15.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.vladimir.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ru.vladimir" />
-      <option name="MAIN_CLASS_NAME" value="ru.vladimir.SelenideTest" />
-      <option name="METHOD_NAME" value="testIssueSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.qa_guru_allure_15 [allureServe]" />
-        <item itemvalue="JUnit.SelenideTest.testIssueSearch" />
-        <item itemvalue="JUnit.SelenideTest.testGoogle" />
-        <item itemvalue="Gradle.qa_guru_allure_15 [dependencies]" />
+        <item itemvalue="JUnit.LabelTest" />
         <item itemvalue="Gradle.qa_guru_allure_15 [allureReport]" />
+        <item itemvalue="JUnit.SelenideTest.testGoogle" />
+        <item itemvalue="JUnit.AttachmentTest" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-jbrsdk-17.0.9-f644763e9732-d3ceb957" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -274,7 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715193587412</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="настроил версии зависимостей">
+      <option name="closed" value="true" />
+      <created>1715443784743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715443784743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Новая ветка. закончил StepsTest">
+      <option name="closed" value="true" />
+      <created>1715609302743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715609302745</updated>
+    </task>
+    <task id="LOCAL-00004" summary="закончил WebStep">
+      <option name="closed" value="true" />
+      <created>1715709016612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715709016612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +303,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="подключил allure" />
-    <option name="LAST_COMMIT_MESSAGE" value="подключил allure" />
+    <MESSAGE value="настроил версии зависимостей" />
+    <MESSAGE value="Новая ветка. закончил StepsTest" />
+    <MESSAGE value="закончил WebStep" />
+    <option name="LAST_COMMIT_MESSAGE" value="закончил WebStep" />
   </component>
 </project>
