@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/AttachmentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/LabelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/StepsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vladimir/WebStep.java" afterDir="false" />
-    </list>
+    <list default="true" id="3498d3e3-e200-4366-8623-4652b9e9d367" name="Changes" comment="закончил WebStep" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,47 +83,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Build qa_guru_allure_15.executor": "Run",
-    "Gradle.qa_guru_allure_15 [allureReport].executor": "Run",
-    "Gradle.qa_guru_allure_15 [allureServe].executor": "Run",
-    "Gradle.qa_guru_allure_15 [dependencies].executor": "Run",
-    "Gradle.qa_guru_allure_15 [downloadAllure].executor": "Run",
-    "Gradle.qa_guru_allure_15 [model].executor": "Run",
-    "Gradle.qa_guru_allure_15 [test].executor": "Run",
-    "JUnit.AttachmentTest.executor": "Run",
-    "JUnit.LabelTest.executor": "Run",
-    "JUnit.SelenideTest.executor": "Run",
-    "JUnit.SelenideTest.testGoogle.executor": "Run",
-    "JUnit.SelenideTest.testIssueSearch.executor": "Run",
-    "JUnit.StepsTest.annotatedStep.executor": "Run",
-    "JUnit.StepsTest.executor": "Run",
-    "JUnit.StepsTest.testLambdaStep.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "newBranch",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "jbr-17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/vladi/IdeaProjects/qa_guru_16_files",
-    "onboarding.tips.debug.path": "D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15429688",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build qa_guru_allure_15.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [dependencies].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [downloadAllure].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [model].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.qa_guru_allure_15 [test].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AttachmentTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LabelTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelenideTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelenideTest.testGoogle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SelenideTest.testIssueSearch.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.annotatedStep.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StepsTest.testLambdaStep.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;newBranch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;jbr-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vladi/IdeaProjects/qa_guru_16_files&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Project for java/qa_guru_allure_15/src/main/java/ru/vladimir/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\vladi\IdeaProjects\qa_guru_allure_15\build" />
