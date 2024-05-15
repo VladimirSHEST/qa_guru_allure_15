@@ -40,5 +40,6 @@ public class SelenideTest {
     public void testGoogle() {
         Configuration.holdBrowserOpen = true;
         open("https://google.com/");
+        System.out.println("Привет Hello");
     }
 }
