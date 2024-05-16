@@ -23,7 +23,7 @@ dependencies {
             'com.codeborne:selenide:7.2.1',
             'org.assertj:assertj-core:3.25.3',             //  чтоб быстрее писать код
             //    'org.slf4j:slf4j-simple:2.0.6',                //  для лучшей расшифровки кода в run
-            //         'com.github.javafaker:javafaker:2.0.12',        //  javafaker
+            //  'com.github.javafaker:javafaker:2.0.12',        //  javafaker
 
             'io.qameta.allure:allure-selenide:2.19.0',     //интеграция с селенидом
             'io.qameta.allure:allure-java-commons: 2.19.0',    //  allure
